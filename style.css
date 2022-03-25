@@ -1,0 +1,182 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerContent > a {
+  padding: 0px 15px;
+  font-size: 14px;
+  text-decoration: none;
+  font-size: medium;
+  color: black;
+}
+
+.webElement {
+  background-image: url("./image1.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.webElement > button,
+.about > button {
+  padding: 20px;
+  font-size: 15px;
+  background-color: white;
+  color: rgb(122, 47, 209);
+  outline: none;
+  border: none;
+}
+
+.webElement > h1,
+.webElement > h3 {
+  color: white;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about > p {
+  width: 70%;
+  text-align: center;
+}
+
+.about > button {
+  background-color: rgb(122, 47, 209);
+  color: white;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0px;
+  height: 50vh;
+  background-color: rgba(204, 39, 219, 0.1);
+}
+
+.services > p {
+  text-align: center;
+  width: 60%;
+}
+
+.servicesList {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.servicesList > div {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicesList > div > p {
+  text-align: center;
+}
+
+.client {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 30px;
+}
+
+.client > p {
+  text-align: center;
+}
+
+.callRequest {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.iconPage {
+  background-color: blueviolet;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconPageInput {
+  border-bottom: 1px solid rgb(85, 24, 143);
+}
+
+.iconPageInput > input {
+  background-color: transparent;
+  color: white;
+  padding: 15px;
+  border: none;
+}
+
+.iconPageInput > input::placeholder {
+  font-size: large;
+  color: black;
+}
+
+/* icon design */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: blueviolet;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  color: black;
+  margin: 10px 0px;
+}
+
+.formCall > input,
+.formCall > select {
+  padding: 20px;
+  width: 25vw;
+  border: 1px solid whitesmoke;
+  font-size: 16px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.formCall > select {
+  background-color: white;
+  width: 100%;
+}
+
+.formCall > textarea {
+  resize: none;
+  width: 90%;
+  height: 100px;
+  box-sizing: border-box;
+  margin: 15px;
+  padding: 20px;
+}
